@@ -1,8 +1,12 @@
 ## BASIC COMMANDS
 git                     => says I'm using git
+
 git --version => tells me what version of git I'm using
+
 git init            => tells git to start paying attention. makes your current folder into a repo.
+
 git add [WHATEVER YOU'RE ADDING] => tells git what you want to track this version (usually use git add . to add everything)
+
 git commit -m "[INSERT MESSAGE HERE]" => saves a version and adds the label [INSERT MESSAGE HERE]
 
 ## *~*~*~*VIM TRAP!*~*~*~*
@@ -50,24 +54,28 @@ Merging = concept of applying changes made in one branch to another.
 
 Usually teams will merge when they reach a specific goal.
 
+```
 					Main Branch
 						|
 						1
 					   	|
 					   	2
-			   	   	  /   \
-					 1B -- |
-					  |    |
-					 2B -- **
+			   	   	      /   \
+					     1B -- |
+					      |    |
+					     2B -- **
+```
 
 . . . . . . . . . . . . . . . . . .
 ## TYPICAL GIT WORKFLOW
 Prob only want to do a couple commits max before you merge so things don't get crazy.
 
+```
 			   * – – – – – – – – – – – - - – – *
-				\  							  /	
-feature branch	-\ _ _ commit _ _ commit _ _ /- merge changes
- created from		 1 			 2				 back into
-  master											master
+		   	    \  				  /	
+feature branch		    -\ _ _ commit _ _ commit _ _ /- 	merge changes
+ created from		      1 			 2 	back into
+  master							master
+```
 
 #testy-test

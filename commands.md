@@ -1,8 +1,12 @@
 ## BASIC COMMANDS
 git                     => says I'm using git
+
 git --version => tells me what version of git I'm using
+
 git init            => tells git to start paying attention. makes your current folder into a repo.
+
 git add [WHATEVER YOU'RE ADDING] => tells git what you want to track this version (usually use git add . to add everything)
+
 git commit -m "[INSERT MESSAGE HERE]" => saves a version and adds the label [INSERT MESSAGE HERE]
 
 ## *~*~*~*VIM TRAP!*~*~*~*

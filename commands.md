@@ -56,10 +56,10 @@ Usually teams will merge when they reach a specific goal.
 						1
 					   	|
 					   	2
-			   	   	  /   \
-					 1B -- |
-					  |    |
-					 2B -- **
+			   	   	      /   \
+					     1B -- |
+					      |    |
+					     2B -- **
 ```
 
 . . . . . . . . . . . . . . . . . .
@@ -68,10 +68,10 @@ Prob only want to do a couple commits max before you merge so things don't get c
 
 ```
 			   * – – – – – – – – – – – - - – – *
-				\  							  /	
-feature branch	-\ _ _ commit _ _ commit _ _ /- merge changes
- created from		 1 			 2				 back into
-  master											master
+		   	    \  				  /	
+feature branch		    -\ _ _ commit _ _ commit _ _ /- 	merge changes
+ created from		      1 			 2 	back into
+  master							master
 ```
 
 #testy-test

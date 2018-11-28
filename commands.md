@@ -50,6 +50,7 @@ Merging = concept of applying changes made in one branch to another.
 
 Usually teams will merge when they reach a specific goal.
 
+```
 					Main Branch
 						|
 						1
@@ -59,15 +60,18 @@ Usually teams will merge when they reach a specific goal.
 					 1B -- |
 					  |    |
 					 2B -- **
+```
 
 . . . . . . . . . . . . . . . . . .
 ## TYPICAL GIT WORKFLOW
 Prob only want to do a couple commits max before you merge so things don't get crazy.
 
+```
 			   * – – – – – – – – – – – - - – – *
 				\  							  /	
 feature branch	-\ _ _ commit _ _ commit _ _ /- merge changes
  created from		 1 			 2				 back into
   master											master
+```
 
 #testy-test
